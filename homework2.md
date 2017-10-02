@@ -1,5 +1,9 @@
 ## (1.)
    _prefix free_ code : 1 , 4 <br>
+   
+   decision tree of code1 :<br>
+   
+   decision tree of code4 :<br>
 
 ## (2.)
 
