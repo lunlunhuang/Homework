@@ -42,7 +42,7 @@
 
 - sourse : abcabcabcabcabcabcabcabcabcabcabcabc <br>
 
-- encodde : <br>
+- encode : 
 |Current|Next|Output|Add to dictionay|Comments|
 |:---:|:---:|:---:|:---:|:---|
 |a 97|b 98|a 97|ab 256|'ab' not exist, add it to table|
@@ -55,6 +55,7 @@
 |bba 258|b 98|bba 258|bbab 260|add 'bbab' to table|
 |b 98|-|b 98|-|end|
 
+-code :
 
 
 
