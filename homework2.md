@@ -11,8 +11,10 @@
   -  _prefix free_ code : 1 , 4 <br>
    
    - decision tree of code1 :<br>
+   ![](CODE1.png) <br>
    
    - decision tree of code4 :<br>
+   ![](CODE2.png) <br>
 
 ## (2.)
 
