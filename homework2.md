@@ -1,5 +1,5 @@
 ## (1.)
-   _prefix free_code : 1 , 4 <br>
+   _prefix free_ code : 1 , 4 <br>
 
 ## (2.)
 
