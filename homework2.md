@@ -39,3 +39,32 @@
   
 
 ## (3.)
+
+- sourse : abcabcabcabcabcabcabcabcabcabcabcabc <br>
+
+- encodde : <br>
+|Current|Next|Output|Add to dictionay|Comments|
+|:---:|:---:|:---:|:---:|:---|
+|a 97|b 98|a 97|ab 256|'ab' not exist, add it to table|
+|b 98|b 98|b 98|bb 257|'bb' not exist, add it to table|
+|b 98|b 98|-|-|'bb' exist in table, 'bba' not exist|
+|bb 257|a 97|bb 257|bba 258|add 'bba' to table|
+|a 97|b 98|-|-|'ab' exist in table, 'abb' not exist|
+|ab 256|b 98|ab 256|abb 259|add 'abb' to table|
+|b 98|b 98|-|-|'bb' exist in table, 'bba' exist to, 'bbab' not|
+|bba 258|b 98|bba 258|bbab 260|add 'bbab' to table|
+|b 98|-|b 98|-|end|
+
+
+
+
+
+
+
+
+
+
+
+
+
+
