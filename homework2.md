@@ -40,7 +40,7 @@
 
 ## (3.)
 
-- sourse : abcabcabcabcabcabcabcabcabcabcabcabc <br>
+- sourse : abcabcabcabcabcabcabcabcabcabcabcabc
 
 - encode : 
 |Current|Next|Output|Add to dictionay|Comments|
@@ -55,7 +55,7 @@
 |bba 258|b 98|bba 258|bbab 260|add 'bbab' to table|
 |b 98|-|b 98|-|end|
 
--code :
+- code: 97, 98, 257, 256, 258, 98.
 
 
 
