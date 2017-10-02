@@ -54,9 +54,9 @@
 
 ## (3.)
 
-- source: abcabcabcabcabcabcabcabcabcabcabcabc
+- source : abcabcabcabcabcabcabcabcabcabcabcabc
 
-- encode:
+- encode :
 
 |Current|Next|Output|Add to dictionay|Comments|
 |:---:|:---:|:---:|:---:|:---|
@@ -74,5 +74,5 @@
 |cabc 266|a 97|cabc 266|cabca 267|'cabca' not exist, add it to table|
 |abc 259|-|abc 259|-|end|
 
-- code: 97, 98, 99, 256, 258, 257, 259, 262, 261, 264, 260, 266, 259.
+- code : 97, 98, 99, 256, 258, 257, 259, 262, 261, 264, 260, 266, 259.
 
