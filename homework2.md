@@ -1,8 +1,8 @@
-##(1)
+##1.
 
-##(2)
+##2.
 
-(a)<br>
+(a)
 (b)
 
 |title|_s<sub>1</sub>_|_s<sub>2</sub>_|_s<sub>3</sub>_|_s<sub>4</sub>_|_s<sub>5</sub>_|_s<sub>6</sub>_|_s<sub>7</sub>_|
@@ -24,4 +24,4 @@
 
 
 
-##(3)
+##3.
