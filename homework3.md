@@ -1,2 +1,2 @@
 
-Draw the digital signal codes:
+- Draw the digital signal codes:
