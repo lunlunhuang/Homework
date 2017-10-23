@@ -1,1 +1,1 @@
-![]( SIGNAL CODES.png ) <br>
+![](SIGNAL CODES.png)
