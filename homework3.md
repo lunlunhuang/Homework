@@ -1,3 +1,3 @@
 
 - Draw the digital signal codes:<br>
- ![]( SIGNAL CODES.png ) <br>
+ ![]( fig/SIGNAL CODES.png ) <br>
