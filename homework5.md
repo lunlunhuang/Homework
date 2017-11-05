@@ -7,7 +7,7 @@
   - b. the protocol type : IPv4 (0x0800)
   - c. the hardware length : 6 <sb>
   - d. the protocol length : 4 <sb>
-  - e. the operation code : <sb>
+  - e. the operation code : request(1)
   - f. the source hardware address.
   - g. the source protocol address?
   - h. the destination hardware address.
@@ -22,7 +22,7 @@
   - b. the protocol type : IPv4 (0x0800)
   - c. the hardware length : 6 <sb>
   - d. the protocol length : 4 <sb>
-  - e. the operation code. <sb>
+  - e. the operation code : reply(2)
   - f. the source hardware address.
   - g. the source protocol address?
   - h. the destination hardware address.
