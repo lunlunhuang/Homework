@@ -1,5 +1,7 @@
 
 - # Part I: ARP request message
+
+![](fig/ARPrequest.jpg)
   - Part I: ARP request message
   - a. the hardware type.
   - b. the protocol type.
