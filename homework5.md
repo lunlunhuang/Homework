@@ -2,7 +2,7 @@
 - # Part I: ARP request message
 
 ![](fig/ARPrequest.jpg)
-  - Part I: ARP request message
+  
   - a. the hardware type.
   - b. the protocol type.
   - c. the hardware length.
@@ -13,8 +13,6 @@
   - h. the destination hardware address.
   - i. the destination protocol address?
   
-  
-  <sb>
   
 - # Part II: ARP reply message
   - a. the hardware type.
