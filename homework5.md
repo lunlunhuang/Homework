@@ -7,7 +7,7 @@
   - b. the protocol type : IPv4 (0x0800)
   - c. the hardware length : 6 <sb>
   - d. the protocol length : 4 <sb>
-  - e. the operation code : 
+  - e. the operation code : <sb>
   - f. the source hardware address.
   - g. the source protocol address?
   - h. the destination hardware address.
@@ -21,8 +21,8 @@
   - a. the hardware type : Ethernet(1)
   - b. the protocol type : IPv4 (0x0800)
   - c. the hardware length : 6 <sb>
-  - d. the protocol length : 4 <sb>
-  - e. the operation code.
+  - d. the protocol length : 4 <sb>
+  - e. the operation code. <sb>
   - f. the source hardware address.
   - g. the source protocol address?
   - h. the destination hardware address.
