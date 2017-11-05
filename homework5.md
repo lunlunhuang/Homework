@@ -1,7 +1,7 @@
 
 - # Part I: ARP request message
 
-![](fig/ARPrequest.jpg)
+![](ARPrequest.jpg)
   
   - a. the hardware type.
   - b. the protocol type.
@@ -15,6 +15,9 @@
   
   
 - # Part II: ARP reply message
+
+![](ARPreply.jpg)
+
   - a. the hardware type.
   - b. the protocol type.
   - c. the hardware length.
