@@ -54,7 +54,7 @@ Encoded data: 011011001010
 
 
 
-# Decode
+## Decode
 
 EX: bit position 11 is wrong __(1 -> 0)__
 
