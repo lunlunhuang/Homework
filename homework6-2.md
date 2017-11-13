@@ -10,3 +10,4 @@
 
 - CRC detect error <br>
   - Dataword discarded
+  ![](CRCdectecterror.jpg)
