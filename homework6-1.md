@@ -43,10 +43,53 @@
     - (p4, 1, 0, 1, 0)
   - p4 = 0
   
+  
+  
 |Bit position|1|2|3|4|5|6|7|8|9|10|11|12|
 |:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
 |__Encoded data bit__|p1|p2|d1|p3|d2|d3|d4|p4|d5|d6|d7|d8|
 ||0|1|1|0|1|1|0|0|1|0|1|0|
 
 Encoded data: 011011001010 
+
+
+
+# Decode
+
+EX: bit position 11 is wrong __(1 -> 0)__
+
+|Bit position|1|2|3|4|5|6|7|8|9|10|11|12|
+|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
+|__Encoded data bit__|p1|p2|d1|p3|d2|d3|d4|p4|d5|d6|d7|d8|
+||0|1|1|0|1|1|0|0|1|0|___0___|0|
+
+- step 1, check with p1 (bit position 1):
+  - bit position of (1, 3, 5, 7, 9, 11)
+    - (0, 1, 1, 0, 1, ___0___)
+  - Wrong.
+
+- step 2, check with p2 (bit position 2):
+  - bit bit position of (2, 3, 6, 7, 10, 11)
+    - (1, 1, 1, 0, 0, ___0___)
+  - Wrong.
+
+- step 3, check with p3 (bit position 4):
+  - bit position of (4, 5, 6, 7, 12)
+    - (0 , 1, 1, 0, 0)
+  - Correct.
+ 
+- step 4, check with p4 (bit position 8):
+  - bit position of (8, 9, 10, 11, 12)
+    - (0, 1, 0, ___0___, 0)
+  - Wrong.
+
+- step 5, find wrong position:1 (p1) and 2 (p2) and 8 (p4).
+  - 1 + 2 + 8 = 11
+  - error at bit posisiont 10 __(0 -> 1)__
+
+
+
+
+
+
 
