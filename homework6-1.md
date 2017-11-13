@@ -48,5 +48,5 @@
 |__Encoded data bit__|p1|p2|d1|p3|d2|d3|d4|p4|d5|d6|d7|d8|
 ||0|1|1|0|1|1|0|0|1|0|1|0|
 
-
+Encoded data: 011011001010 
 
