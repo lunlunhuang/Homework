@@ -1,1 +1,1 @@
-
+- Encode 11010011101100 in CRC code, the divisor is 1011.
